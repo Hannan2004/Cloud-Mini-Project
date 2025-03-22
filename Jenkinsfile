@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Hannan2004/Cloud-Mini-Project.git'
+                git branch: 'main', url: 'https://github.com/Hannan2004/Cloud-Mini-Project.git'
             }
         }
 
